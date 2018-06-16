@@ -1,0 +1,1 @@
+In this project i would do a replica of the google web page to practice html and css
