@@ -1,24 +1,112 @@
 h1 { margin-left: 340px;
-    margin-top: 150px;
+    margin-top: 110px;
  }
 
  .searchr {
-    height: 34px;
-    width: 459px;
-    margin-left: 230px;
-    border-radius: 0px;
+    height: 39px;
+width: 459px;
+margin-top: 10px;
+margin-left: 230px;
+   border-left-width: 1px;
+border-left-style: solid;
+border-top-width: 1px;
+border-top-style: solid;
+border-right-width: 1px;
+border-right-style: solid;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-shadow: 0.5px 0.5px 3px;
+overflow: hidden;
+line-height: 0;
+white-space: nowrap;
+box-sizing: content-box;
+position: absolute;
 }
+
+.search:hover { box-shadow: 2px 2px 4px; }
 
 .buscarcongoogle {
 
-    margin-left: 310px;
-    margin-top: 15px;
-    border-radius: 0px;
+   margin-left: 310px;
+margin-top: 60px;
+background-color: #f2f2f2;
+border: 1px solid #f2f2f2;
+border-radius: 2px;
+color: #757575;
+cursor: default;
+font-family: arial,sans-serif;
+font-size: 13px;
+font-weight: bold;
+padding: 0 16px;
+height: 36px;
+line-height: 27px;
 }
+
+.buscarcongoogle:hover {
+	border: 1px solid #c6c6c6;
+box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+color: #222;}
 
 .mesientoconsuerte {
 
     margin-left: 13px;
-    border-radius: 0px;
-
+background-color: #f2f2f2;
+border: 1px solid #f2f2f2;
+border-radius: 2px;
+color: #757575;
+cursor: default;
+font-family: arial,sans-serif;
+font-size: 13px;
+font-weight: bold;
+padding: 0 16px;
+height: 36px;
+line-height: 27px;
 }
+
+.mesientoconsuerte:hover {
+	border: 1px solid #c6c6c6;
+box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+color: #222;}
+
+#topnearlinks  {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 700px;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    color: rgba(0,0,0,0.87);;
+    padding: 4px 8px;
+    text-decoration: none;
+    font-size: 13px;
+    opacity: .85;
+    font-family: arial,sans-serif;
+}
+
+li a:hover {text-decoration: underline; }
+
+#navigationbarlow {
+    color:#666; 
+	border-top-width: 1px;
+    border-top-style: solid;
+    padding-left: 20px;
+    padding-top: 13px;
+    padding-bottom: 20px;
+    margin-top: 110px;
+    background-color: #f2f2f2;
+    border-color: #e4e4e4;
+    font-size: 13pt;
+    font-family: arial,sans-serif;
+    opacity: 0%;
+}
+
+.spacio {  margin-left: 400px; }
