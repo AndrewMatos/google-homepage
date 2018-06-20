@@ -110,3 +110,10 @@ li a:hover {text-decoration: underline; }
 }
 
 .spacio {  margin-left: 400px; }
+
+.link1 {color: #1a0dab;font-size: 18px;font-weight: normal;
+
+font-family: arial,sans-serif; line-height: 1.2;
+text-align: left;text-decoration: none;}
+
+.link1:hover { text-decoration: underline; }
